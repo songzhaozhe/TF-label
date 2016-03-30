@@ -1,0 +1,14 @@
+message Node
+{
+    required string id = 1; //must be named id and has type string
+    required int32 level = 2;
+    //...
+}
+message Edge
+{
+    required string id = 1; //required
+    required string from = 2; //required
+    required string to = 3; //required
+}
+
+
